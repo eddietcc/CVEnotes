@@ -23,18 +23,18 @@ The “BankMatching.php” have Blind SQL injection vulnerability in “AmtClear
 ![](./png/04.png)
  5. Click the first row “Outstanding” checkbox in this table and click “Update Matching”. We need to use Burp Suit tool proxy intercept function before submit.
 ![](./png/05.png)
- 6. From source code can know the parameter `AmtClear_` return type might be integer, so we could make condition to do Boolean SQL injection.
-**Payload**:
--- Delete parameter `Clear_1=on` in POST request.
--- Add following payload to parameter `AmtClear_1=`.
-`1+(@@version=concat(Database version present in ACSII HEX format))`
-And symbol (eg. +, =) need to do URL encode.</br>
+ 6. From source code can know the parameter `AmtClear_` return type might be integer, so we could make condition to do Boolean SQL injection.    
+ **Payload**:    
+a. Delete parameter `Clear_1=on` in POST request.    
+b. Add following payload to parameter `AmtClear_1=`.    
+`1+(@@version=concat(Database version present in ACSII HEX format))`    
+And symbol (eg. +, =) need to do URL encode.    
 If condition is TRUE will get 2 (1+1).      
-If condition is FALSE will get 1 (1+0).</br>
-In this case, the `Amount` value of row that we select is 50.00.
-=>If TRUE, the value of `Amount` will get 48 (50-2).
-=>If FALSE, the value of `Amount` will get 49 (50-1).</br>
-We guess the database version is `10.1.34-MariaDB-0ubuntu0.18.04.1`, which ACSII HEX format is `31302e312e33342d4d6172696144422d307562756e7475302e31382e30342e31`.
+If condition is FALSE will get 1 (1+0).    
+In this case, the `Amount` value of row that we select is 50.00.    
+=>If TRUE, the value of `Amount` will get 48 (50-2).    
+=>If FALSE, the value of `Amount` will get 49 (50-1).    
+We guess the database version is `10.1.34-MariaDB-0ubuntu0.18.04.1`, which ACSII HEX format is `31302e312e33342d4d6172696144422d307562756e7475302e31382e30342e31`.    
 So, the payload we used is: `1%2b(@@version%3dconcat(0x31302e312e33342d4d6172696144422d307562756e7475302e31382e30342e31))`
 --Original request:
 ![](./png/06.png)
