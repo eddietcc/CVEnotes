@@ -9,7 +9,7 @@
  - Github: https://github.com/webERP-team/webERP
 
  ### Abstract
-The “BankMatching.php” have Blind SQL injection vulnerability in “AmtClear_” parameter, here will be to guess the database version as an example.
+The `BankMatching.php` have Blind SQL injection vulnerability in `AmtClear_` parameter, here will be to guess the database version as an example.
 
  ### Concept
  1. After download the latest version webERP from the official website, we review the source code of `/webERP/BankMatching.php` and speculate `AmtClear_` parameter might has blind SQL Injection vulnerability.
