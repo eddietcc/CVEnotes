@@ -12,19 +12,15 @@
  ### Abstract
 PHP-Proxy before 5.1.0 has Cross-Site Scripting (XSS) via the URL field in `index.php`.
  ### Concept
- 1. First, we download the latest version from the official website and setup it.
+ 1. First, we download the latest version from the official website and build it.
 ![](./png/1.png)
-
  2. In `/php-proxy/index.php`, only have a input field for type URL and redirect it. Then, input attack string in filed and submit.
 **payload:**`<input type="text" autofocus onfocus=alert("XSS")>`
 ![](./png/2.png)
-
  3. Show reflect XSS window.
 ![](./png/3.png)
-
  ### Instance
 Following are actual case. 
-
  - ver 5.1.0
 ![](./png/4.png)
  - ver 5.0.1
