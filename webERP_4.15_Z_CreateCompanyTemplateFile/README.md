@@ -24,5 +24,6 @@ The `Z_CreateCompanyTemplateFile.php` have Incorrect Access Control vulnerabilit
  5. We set the BurpSuite to intercept packet before submit, then click `Create Template and Email` button and edit value of parameter `TemplateName`.  
  **Payload**: `../../../sql/mysql/country_sql/demo`
 ![](./png/06.png)
- 6. Check the `/weberp/sql/mysql/country_sql/demo.sql` file size. Here can see the target file size is changed. (From 1.2M to 44K)
+ 6. Check the `/weberp/sql/mysql/country_sql/demo.sql` file size. Here can see the target file size is changed.(From 1.2M to 44K)
+
 ![](./png/07.png)
