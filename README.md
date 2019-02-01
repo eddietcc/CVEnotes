@@ -10,4 +10,7 @@
 |CVE-2018-19784|PHP-Proxy|Sensitive Data Exposure|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19784)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/PHP-Proxy/readme.md)|
 |CVE-2018-19785|PHP-Proxy|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19785)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/PHP-Proxy/RADME.md)|
 |CVE-2018-19970|phpMyAdmin|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19970)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2018-8/)|
-|N/A|webERP|Incorrect Access Control|[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
+|CVE-2018-20420|webERP|Incorrect Access Control|[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODkzMjQ3MDYwXX0=
+-->
