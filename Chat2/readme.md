@@ -12,7 +12,7 @@
 The Chatv2 has SQL injection.
 
 ### Description
-The `userid` parameter in `/chat2/ jumpin.php` has SQL injection vulnerability.
+The `userid` parameter in `/chat2/jumpin.php` has SQL injection vulnerability.
  
 ### Concept
 1. Build the chat2 test environment, and create a chat then send test message out.
@@ -26,5 +26,6 @@ The `userid` parameter in `/chat2/ jumpin.php` has SQL injection vulnerability.
 **payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5 -D chat2_db --tables`
 ![](./png/5.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc2NzUxMDBdfQ==
+eyJoaXN0b3J5IjpbLTEyMjc4Njg5MDQsLTE0NDc2NzUxMDBdfQ
+==
 -->
