@@ -21,11 +21,10 @@ We test the MariaDB 10.3.7 and 10.3.8 version exist DoS vulnerability when any u
 2. Modify comment and column name at the same time, then click save.
 ![](./png/3.png)
 ![](./png/4.png)
-3. 3.	Prompt error message, and MariaDB service is stop.
-**payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5`
-
-**payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5 -D chat2_db --tables`
+3. Prompt error message, and MariaDB service is stop.
 ![](./png/5.png)
+![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzE5MzM5NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3NzYyNDU5MDAsLTIwODg3NDY2MTJdfQ
+==
 -->
