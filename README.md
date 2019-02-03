@@ -11,7 +11,8 @@
 |CVE-2018-19970|phpMyAdmin|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19970)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2018-8/)|
 |CVE-2018-20420|webERP|Incorrect Access Control|[[CVE]](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20420)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
 |CVE-2019-6798|phpMyAdmin|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-6798)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2019-2/)|
+|N/A|chat v2|SQL injection|[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjcwMTg3MjIsLTEwNjA1OTk0NjEsMz
-U1NTkzODM3LDkzMzk1NTMxM119
+eyJoaXN0b3J5IjpbMTk2NDE3MjI5MCwtMTIyNzAxODcyMiwtMT
+A2MDU5OTQ2MSwzNTU1OTM4MzcsOTMzOTU1MzEzXX0=
 -->
