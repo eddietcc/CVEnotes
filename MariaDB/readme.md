@@ -9,10 +9,10 @@
 - Github: https://github.com/MariaDB
 
 ### Summary
-The Chatv2 has SQL injection.
+MariaDB version in 10.3.7 and 10.3.8 has Denial of Service (DoS) vulnerability.
 
 ### Description
-The `userid` parameter in `/chat2/ jumpin.php` has SQL injection vulnerability.
+We test the MariaDB 10.3.7 and 10.3.8 version exist DoS vulnerability when any user modifies column name and comment in any table at the same time.
  
 ### Concept
 1. Build the chat2 test environment, and create a chat then send test message out.
@@ -26,5 +26,5 @@ The `userid` parameter in `/chat2/ jumpin.php` has SQL injection vulnerability.
 **payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5 -D chat2_db --tables`
 ![](./png/5.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzEzODIxOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTY4Mjc4NzA1NywtMjA4ODc0NjYxMl19
 -->
