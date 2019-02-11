@@ -1,4 +1,5 @@
-# CVEnotes
+## CVEnotes
+#### The discovery of these vulnerability is to work with my colleagues.
 |CVE ID        |Product   |Attack Vector        |Reference                                     |
 |--------------|----------|---------------------|----------------------------------------------|
 |CVE-2018-18950|KindEditor|Directory Traversal|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18950)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/CVE-2018-18950_KindEditor/README.md)|
@@ -20,8 +21,8 @@
 |CVE-2019-7730|MyWebSQL|Cross-site request forgery (CSRF)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7730)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/CSRF/readme.md)|
 |CVE-2019-7731|MyWebSQL|Remote Code Execution (RCE)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7731)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/RCE/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NTA2OTcxLC03MjQxMjM1MzIsLTEyMj
-cwMTg3MjIsMTc1OTI1NDEyMSwxNjU4MDY3NTkzLDE5NjQxNzIy
-OTAsLTEyMjcwMTg3MjIsLTEwNjA1OTk0NjEsMzU1NTkzODM3LD
-kzMzk1NTMxM119
+eyJoaXN0b3J5IjpbLTk0ODM5Mjk1Myw2ODU1MDY5NzEsLTcyND
+EyMzUzMiwtMTIyNzAxODcyMiwxNzU5MjU0MTIxLDE2NTgwNjc1
+OTMsMTk2NDE3MjI5MCwtMTIyNzAxODcyMiwtMTA2MDU5OTQ2MS
+wzNTU1OTM4MzcsOTMzOTU1MzEzXX0=
 -->
