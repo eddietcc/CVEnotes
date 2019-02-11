@@ -18,10 +18,10 @@ The attacker designed a URL with a specific `sessid`, if the victim browsed the 
 1. Design a URL with a specific “sessid”, and the victim browsed the URL.  
  **Payload**: `http://127.0.0.1/dbninja/data.php?sessid=exploittest&action=ver`
 ![](./png/1.png)
-2. Execute `Backup Database` function and modify Backup filename as `shell.php`.
+2. Then the victim login as the admin account.
 ![](./png/2.png)
-3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. Here instance is  `cmd=ipconfig` as below figure.
+3. An attacker can use the victim's permission to operate DBNinja.
 ![](./png/3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxMjkxMzFdfQ==
+eyJoaXN0b3J5IjpbMTA5MjAzMDAyNl19
 -->
