@@ -16,10 +16,10 @@
 |CVE-2019-7544|MyWebSQL|Stored Cross-site Scripting (S-XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7544)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/MyWebSQL/Readme.md)|
 |CVE-2019-7545|DbNinja|Stored Cross-site Scripting (S-XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7545)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/DbNinja/README.md)|
 |CVE-2019-7546|SIDU|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7546)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/SIDU/Reflected%20XSS/readme.md)|
-|CVE-2019-7546|SIDU|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7546)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/SIDU/Reflected%20XSS/readme.md)|
+|CVE-2019-7547|SIDU|Stored Cross-site Scripting (S-XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7547)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/SIDU/Reflected%20XSS/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NTQxNjI1LC03MjQxMjM1MzIsLTEyMj
-cwMTg3MjIsMTc1OTI1NDEyMSwxNjU4MDY3NTkzLDE5NjQxNzIy
-OTAsLTEyMjcwMTg3MjIsLTEwNjA1OTk0NjEsMzU1NTkzODM3LD
-kzMzk1NTMxM119
+eyJoaXN0b3J5IjpbLTE2NjczNTQ3MjQsLTcyNDEyMzUzMiwtMT
+IyNzAxODcyMiwxNzU5MjU0MTIxLDE2NTgwNjc1OTMsMTk2NDE3
+MjI5MCwtMTIyNzAxODcyMiwtMTA2MDU5OTQ2MSwzNTU1OTM4Mz
+csOTMzOTU1MzEzXX0=
 -->
