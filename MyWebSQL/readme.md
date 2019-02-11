@@ -5,14 +5,14 @@
 ### Testing Target
 - Product: MyWebSQL
 - Version: 3.7
-- Official Website: https://css-tricks.com/chat2/
-- Github: N/A
+- Official Website: http://mywebsql.net/
+- Github: https://github.com/Samnan/MyWebSQL
 
 ### Summary
-The Chatv2 has SQL injection.
+MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
 
 ### Description
-The `userid` parameter in `/chat2/jumpin.php` has SQL injection vulnerability.
+MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
  
 ### Concept
 1. Build the chat2 test environment, and create a chat then send test message out.
@@ -26,5 +26,5 @@ The `userid` parameter in `/chat2/jumpin.php` has SQL injection vulnerability.
 **payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5 -D chat2_db --tables`
 ![](./png/5.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQyOTI5MTBdfQ==
+eyJoaXN0b3J5IjpbMTk5ODk4ODEwMF19
 -->
