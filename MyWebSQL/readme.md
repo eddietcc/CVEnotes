@@ -23,7 +23,8 @@ MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
 3. Execute “MyWebSQL_CSRF_PoC.html” at another domain “chris-hpnb2”.
 ![](./png/4.png)
 ![](./png/5.png)
-
+4.	Check result, the test DB has deleted.
+![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjk3Mzk4N119
+eyJoaXN0b3J5IjpbLTkyMjMwNDMzMl19
 -->
