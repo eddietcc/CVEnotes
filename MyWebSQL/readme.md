@@ -20,11 +20,11 @@ MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
 2. Create `MyWebSQL_CSRF_PoC.html` and `MyWebSQL_PoC_iframe.html` file, that purpose is to delete the test database by CSRF.
 ![](./png/2.png)
 ![](./png/3.png)
-3. Execute “MyWebSQL_CSRF_PoC.html” at another domain “chris-hpnb2”.
+3. Execute `MyWebSQL_CSRF_PoC.html` at another domain `chris-hpnb2`.
 ![](./png/4.png)
 ![](./png/5.png)
 4.	Check result, the test DB has deleted.
 ![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjMwNDMzMl19
+eyJoaXN0b3J5IjpbNTIwMzIxMjEwXX0=
 -->
