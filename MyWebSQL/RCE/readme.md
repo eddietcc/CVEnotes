@@ -9,10 +9,10 @@
 - Github: https://github.com/Samnan/MyWebSQL
 
 ### Summary
-MyWebSQL version in 3.7 has remote code execution (RCE) Vulnerability.
+MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability.
 
 ### Description
-MyWebSQL version in 3.7 has remote code execution (RCE) Vulnerability.
+MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability.
  
 ### Concept
 1. Login by IP method, then create a test DB as below image red box.
@@ -26,5 +26,5 @@ MyWebSQL version in 3.7 has remote code execution (RCE) Vulnerability.
 4.	Check result, the test DB has deleted.
 ![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIyNTgyNjJdfQ==
+eyJoaXN0b3J5IjpbMTEwMjQ0NzAxOF19
 -->
