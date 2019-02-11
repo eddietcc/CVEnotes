@@ -9,10 +9,10 @@
 - Github: https://github.com/Samnan/MyWebSQL
 
 ### Summary
-MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
+MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) vulnerability.
 
 ### Description
-MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
+MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) vulnerability.
  
 ### Concept
 1. Login by IP method, then create a test DB as below image red box.
@@ -26,5 +26,5 @@ MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
 4.	Check result, the test DB has deleted.
 ![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMzIxMjEwXX0=
+eyJoaXN0b3J5IjpbLTE1NzQ3NjUzODIsNTIwMzIxMjEwXX0=
 -->
