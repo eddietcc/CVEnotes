@@ -15,16 +15,15 @@ MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
 MyWebSQL version in 3.7 has Cross-site request forgery (CSRF) Vulnerability.
  
 ### Concept
-1. Build the chat2 test environment, and create a chat then send test message out.
+1. Login by IP method, then create a test DB as below image red box.
 ![](./png/1.png)
-2. Back to default page, input new desired username. Use BurpSuite to intercept POST package for sqlmap test before submitting.
+2. Create `MyWebSQL_CSRF_PoC.html` and `MyWebSQL_PoC_iframe.html` file, that purpose is to delete the test database by CSRF.
 ![](./png/2.png)
 ![](./png/3.png)
-3. SQL injection testing via sqlmap. Find out valid payload, then obtain web server’s information and can further enumerate DB, table or other use.
-**payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5`
+3. Execute “MyWebSQL_CSRF_PoC.html” at another domain “chris-hpnb2”.
 ![](./png/4.png)
-**payload:**`py -2 sqlmap.py -r D:\sql.txt -p userid --dbms mysql --level 5 --risk 3 --threads=5 -D chat2_db --tables`
 ![](./png/5.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODk4ODEwMF19
+eyJoaXN0b3J5IjpbMTQzNjk3Mzk4N119
 -->
