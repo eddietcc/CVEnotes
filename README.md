@@ -14,10 +14,10 @@
 |CVE-2019-7316|Chat2|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7316)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/Chat2/readme.md)|
 |CVE-2019-7543|KindEditor|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7543)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/KindEditor/readme.md)|
 |CVE-2019-7544|MyWebSQL|Stored Cross-site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7544)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/MyWebSQL/Readme.md)|
-|CVE-2019-7545|KindEditor|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7543)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/KindEditor/readme.md)|
+|CVE-2019-7545|DBNinja|Stored Cross-site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7543)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/DbNinja/README.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDUyMTI3MiwtNzI0MTIzNTMyLC0xMj
-I3MDE4NzIyLDE3NTkyNTQxMjEsMTY1ODA2NzU5MywxOTY0MTcy
-MjkwLC0xMjI3MDE4NzIyLC0xMDYwNTk5NDYxLDM1NTU5MzgzNy
-w5MzM5NTUzMTNdfQ==
+eyJoaXN0b3J5IjpbLTE4MTI3MDE5NjEsLTcyNDEyMzUzMiwtMT
+IyNzAxODcyMiwxNzU5MjU0MTIxLDE2NTgwNjc1OTMsMTk2NDE3
+MjI5MCwtMTIyNzAxODcyMiwtMTA2MDU5OTQ2MSwzNTU1OTM4Mz
+csOTMzOTU1MzEzXX0=
 -->
