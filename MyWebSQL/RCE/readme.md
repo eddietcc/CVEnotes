@@ -20,9 +20,9 @@ MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability after writ
 ![](./png/1.png)
 2. Execute `Backup Database` function and modify Backup filename as `shell.php`.
 ![](./png/2.png)
-3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. For instance, `cmd=ipconfig` as below figure.
+3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. Here instance is  `cmd=ipconfig` as below figure.
 ![](./png/3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM4NTkwNDgsLTE5MDA5MDgwMDgsLT
-E5MTcyOTM4ODcsMTEwMjQ0NzAxOF19
+eyJoaXN0b3J5IjpbMTA3Nzk2ODEyNSwtMTkwMDkwODAwOCwtMT
+kxNzI5Mzg4NywxMTAyNDQ3MDE4XX0=
 -->
