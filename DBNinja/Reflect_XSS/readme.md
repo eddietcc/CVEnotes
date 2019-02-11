@@ -21,8 +21,9 @@ When `\dbninja\_users\admin` folder exist `tasks.php` file, the DBNinja ver 3.2.
 ![](./png/2.png)
 3. For exploitation, must create a file `tasks.php` in folder `\dbninja\_users\admin`.
 ![](./png/3.png)
-4.	In non-login status, use following payload can implement R-XSS vulnerability. In addition to the before-mentioned problem, there is also the problem of incorrect access control in `data.php`.
- **Payload**: `http://127.0.0.1/dbninja/data.php?online=&task=<script>alert(‘XSS’)</script>`
+4.	In non-login status, use following payload can implement R-XSS vulnerability. In addition to the before-mentioned problem, there is also the problem of incorrect access control in `data.php`.  
+ **Payload**: `http://127.0.0.1/dbninja/data.php?online=&task=<script>alert('XSS_TEST')</script>`
+ ![](./png/4.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM1MzczNzBdfQ==
+eyJoaXN0b3J5IjpbMTg4OTYzMzEyNF19
 -->
