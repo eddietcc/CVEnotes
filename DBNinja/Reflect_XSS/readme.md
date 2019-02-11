@@ -9,19 +9,20 @@
 - Github: N/A
 
 ### Summary
-DBNinja ver 3.2.7 exist broken authentication vulnerability.
+DBNinja ver 3.2.7 exist Reflect Cross-Site Script (R-XSS) and incorrect access control vulnerability.
 
 ### Description
-The attacker designed a URL with a specific `sessid`, if the victim browsed the URL and then logged into NinjaDB. The attacker can login to NinjaDB as the victim by using this `sessid`.
+When `\dbninja\_users\admin` folder exist `tasks.php` file, the DBNinja ver 3.2.7 could occur Reflect Cross-Site Script (R-XSS) vulnerability. In order to implement this vulnerability, need to use the `data.php` file with incorrect access control.
  
 ### Concept
-1. Design a URL with a specific “sessid”, and the victim browsed the URL.  
- **Payload**: `http://127.0.0.1/dbninja/data.php?sessid=exploittest&action=ver`
+1. Build testing environment.
 ![](./png/1.png)
-2. Then the victim login as the admin account.
+2. View the source code of `\dbninja\_includes\online.php`, then observe there used parameter “task” and file “tasks.php”.
 ![](./png/2.png)
 3. An attacker can use the victim's permission to operate DBNinja.
 ![](./png/3.png)
+
+ **Payload**: `http://127.0.0.1/dbninja/data.php?sessid=exploittest&action=ver`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ5NDM5MDVdfQ==
+eyJoaXN0b3J5IjpbLTExNDI5OTIyNzhdfQ==
 -->
