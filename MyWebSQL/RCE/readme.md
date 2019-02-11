@@ -12,7 +12,7 @@
 MyWebSQL version in 3.7 has remote code execution (RCE) vulnerability.
 
 ### Description
-MyWebSQL version in 3.7 has remote code execution (RCE) when write a shell code in 
+MyWebSQL version in 3.7 has remote code execution (RCE) when write a shell code in database and execute backup 
  
 ### Concept
 1. Login by IP method, then create a test DB as below image red box.
@@ -26,5 +26,5 @@ MyWebSQL version in 3.7 has remote code execution (RCE) when write a shell code 
 4.	Check result, the test DB has deleted.
 ![](./png/6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTk1MzE3OCwxMTAyNDQ3MDE4XX0=
+eyJoaXN0b3J5IjpbLTE5MTcyOTM4ODcsMTEwMjQ0NzAxOF19
 -->
