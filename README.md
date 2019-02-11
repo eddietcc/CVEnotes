@@ -12,9 +12,10 @@
 |CVE-2018-20420|webERP|Incorrect Access Control|[[CVE]](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20420)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
 |CVE-2019-6798|phpMyAdmin|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-6798)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2019-2/)|
 |CVE-2019-7316|Chat2|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7316)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/Chat2/readme.md)|
+|CVE-2019-7543|KindEditor|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7316)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/Chat2/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDEyMzUzMiwtMTIyNzAxODcyMiwxNz
-U5MjU0MTIxLDE2NTgwNjc1OTMsMTk2NDE3MjI5MCwtMTIyNzAx
-ODcyMiwtMTA2MDU5OTQ2MSwzNTU1OTM4MzcsOTMzOTU1MzEzXX
-0=
+eyJoaXN0b3J5IjpbMjYzMDc2Mzc3LC03MjQxMjM1MzIsLTEyMj
+cwMTg3MjIsMTc1OTI1NDEyMSwxNjU4MDY3NTkzLDE5NjQxNzIy
+OTAsLTEyMjcwMTg3MjIsLTEwNjA1OTk0NjEsMzU1NTkzODM3LD
+kzMzk1NTMxM119
 -->
