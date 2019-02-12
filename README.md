@@ -21,10 +21,10 @@
 |CVE-2019-7730|MyWebSQL|Cross-site request forgery (CSRF)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7730)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/CSRF/readme.md)|
 |CVE-2019-7731|MyWebSQL|Remote Code Execution (RCE)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7731)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/RCE/readme.md)|
 |CVE-2019-7747|DbNinja|Broken Authentication|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7747)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/DBNinja/Broken_Authentication/readme.md)|
-|CVE-2019-7748|DbNinja|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7748)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/DBNinja/Broken_Authentication/readme.md)|
+|CVE-2019-7748|DbNinja|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7748)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/DBNinja/Reflect_XSS/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTg3NTEzNiwtOTQ4MzkyOTUzLDY4NT
-UwNjk3MSwtNzI0MTIzNTMyLC0xMjI3MDE4NzIyLDE3NTkyNTQx
-MjEsMTY1ODA2NzU5MywxOTY0MTcyMjkwLC0xMjI3MDE4NzIyLC
-0xMDYwNTk5NDYxLDM1NTU5MzgzNyw5MzM5NTUzMTNdfQ==
+eyJoaXN0b3J5IjpbLTIwOTkzOTU3MDAsLTk0ODM5Mjk1Myw2OD
+U1MDY5NzEsLTcyNDEyMzUzMiwtMTIyNzAxODcyMiwxNzU5MjU0
+MTIxLDE2NTgwNjc1OTMsMTk2NDE3MjI5MCwtMTIyNzAxODcyMi
+wtMTA2MDU5OTQ2MSwzNTU1OTM4MzcsOTMzOTU1MzEzXX0=
 -->
