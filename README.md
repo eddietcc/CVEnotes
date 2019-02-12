@@ -9,7 +9,7 @@
 |CVE-2018-19436|webERP|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19436)[[Description]](https://github.com/0xUhaw/CVE-Bins/tree/master/webERP%20SQLI-2)|
 |CVE-2018-19784|PHP-Proxy|Sensitive Data Exposure|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19784)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/PHP-Proxy/readme.md)|
 |CVE-2018-19785|PHP-Proxy|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19785)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/PHP-Proxy/RADME.md)|
-|CVE-2018-19970|phpMyAdmin|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19970)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2018-8/)|
+|CVE-2018-19970|phpMyAdmin|Stored Cross-site Scripting (S-XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19970)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2018-8/)|
 |CVE-2018-20420|webERP|Incorrect Access Control|[[CVE]](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20420)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/webERP_4.15_Z_CreateCompanyTemplateFile/README.md)|
 |CVE-2019-6798|phpMyAdmin|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-6798)[[Official Announcement]](https://www.phpmyadmin.net/security/PMASA-2019-2/)|
 |CVE-2019-7316|Chat2|SQL injection|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7316)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/Chat2/readme.md)|
@@ -23,8 +23,9 @@
 |CVE-2019-7747|DbNinja|Broken Authentication|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7747)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/DBNinja/Broken_Authentication/readme.md)|
 |CVE-2019-7748|DbNinja|Cross-Site Scripting (XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7748)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/DBNinja/Reflect_XSS/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkzOTU3MDAsLTk0ODM5Mjk1Myw2OD
-U1MDY5NzEsLTcyNDEyMzUzMiwtMTIyNzAxODcyMiwxNzU5MjU0
-MTIxLDE2NTgwNjc1OTMsMTk2NDE3MjI5MCwtMTIyNzAxODcyMi
-wtMTA2MDU5OTQ2MSwzNTU1OTM4MzcsOTMzOTU1MzEzXX0=
+eyJoaXN0b3J5IjpbMTM3NTA4Mzc0NywtMjA5OTM5NTcwMCwtOT
+Q4MzkyOTUzLDY4NTUwNjk3MSwtNzI0MTIzNTMyLC0xMjI3MDE4
+NzIyLDE3NTkyNTQxMjEsMTY1ODA2NzU5MywxOTY0MTcyMjkwLC
+0xMjI3MDE4NzIyLC0xMDYwNTk5NDYxLDM1NTU5MzgzNyw5MzM5
+NTUzMTNdfQ==
 -->
