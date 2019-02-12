@@ -20,9 +20,10 @@
 |CVE-2019-7547|SIDU|Stored Cross-site Scripting (S-XSS)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7547)[[Description]](https://github.com/0xUhaw/CVE-Bins/blob/master/SIDU/Stored%20XSS/readme.md)|
 |CVE-2019-7730|MyWebSQL|Cross-site request forgery (CSRF)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7730)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/CSRF/readme.md)|
 |CVE-2019-7731|MyWebSQL|Remote Code Execution (RCE)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7731)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/RCE/readme.md)|
+|CVE-2019-7747|DbNinja|Remote Code Execution (RCE)|[[CVE]](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7731)[[Description]](https://github.com/eddietcc/CVEnotes/blob/master/MyWebSQL/RCE/readme.md)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODM5Mjk1Myw2ODU1MDY5NzEsLTcyND
-EyMzUzMiwtMTIyNzAxODcyMiwxNzU5MjU0MTIxLDE2NTgwNjc1
-OTMsMTk2NDE3MjI5MCwtMTIyNzAxODcyMiwtMTA2MDU5OTQ2MS
-wzNTU1OTM4MzcsOTMzOTU1MzEzXX0=
+eyJoaXN0b3J5IjpbMTcxMDgxNjg0MiwtOTQ4MzkyOTUzLDY4NT
+UwNjk3MSwtNzI0MTIzNTMyLC0xMjI3MDE4NzIyLDE3NTkyNTQx
+MjEsMTY1ODA2NzU5MywxOTY0MTcyMjkwLC0xMjI3MDE4NzIyLC
+0xMDYwNTk5NDYxLDM1NTU5MzgzNyw5MzM5NTUzMTNdfQ==
 -->
