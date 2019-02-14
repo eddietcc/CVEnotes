@@ -15,7 +15,7 @@ DBNinja ver 3.2.7 exist broken authentication vulnerability.
 The attacker designed a URL with a specific `sessid`, if the victim browsed the URL and then logged into NinjaDB. The attacker can login to NinjaDB as the victim by using this `sessid`.
  
 ### Concept
-1. Design a URL with a specific “sessid”, and the victim browsed the URL.  
+1. Design a URL with a specific `sessid`, and the victim browsed the URL.  
  **Payload**: `http://127.0.0.1/dbninja/data.php?sessid=exploittest&action=ver`
 ![](./png/1.png)
 2. Then the victim login as the admin account.
@@ -23,5 +23,5 @@ The attacker designed a URL with a specific `sessid`, if the victim browsed the 
 3. An attacker can use the victim's permission to operate DBNinja.
 ![](./png/3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjAzMDAyNl19
+eyJoaXN0b3J5IjpbMTg2NDg3NDA5MSwxMDkyMDMwMDI2XX0=
 -->
